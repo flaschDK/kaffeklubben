@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.reg-form {
+    display: flex;
+    grid-column: 2;
+}
+
+.felter {
+    margin: auto;
+    padding-top: 10px;
+    list-style:none;
+    line-height: 2;
+}
+
+.felter li {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 175px 200px 350px;
+}
+
+.felter li * {
+    margin-right: 10px;
+}
+
+h1, h2 {
+    color: maroon;
+    text-align: center;
+}
+
+label {
+    color:red;
+}
+
+#submit-form {
+    background-color:maroon;
+    color: white;
+}
+
+.output-liste {
+    list-style:none;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+}

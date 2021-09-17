@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Registrering</title>
+</head>
+<body>
+    <h1>Registreringsform for kaffeklubben Mokka</h1>
+    <form action="tak.html" class="reg-form">
+        <ul class="felter">
+            <li>
+                Fornavn:
+                <input type="text" id="input-name-1" name="fornavn">
+                <label id="error-name-1"></label>
+            </li>
+            <li>
+                Efternavn:
+                <input type="text" id="input-name-2" name="efternavn">
+                <label id="error-name-2"></label>
+            </li>
+            <li>email:
+                <input type="email" id="input-email" name="email">
+                <label id="error-email"></label>
+            </li>
+            <li>Gentag email:
+                <input type="email" id="input-email-ver">
+            </li>
+            <li>Ønsket password:
+                <input type="password" id="input-password" name="password">
+                <label id="error-password"></label>
+            </li>
+            <li>Gentag password:
+                <input type="password" id="input-password-ver">
+            </li>
+            <li>Fortrækker:
+                <select id="input-kaffe" name="kaffe">
+                    <option value="sort">Sort kaffe</option>
+                    <option value="latte">Caffé latte</option>
+                    <option value="cappuccino">Cappuccino</option>
+                    <option value="americano">Americano</option>
+                    <option value="espresso">Espresso</option>        
+                </select>
+            </li>
+            <li>Antal kopper pr. dag (ca.):
+                <input type="number" id="input-antal" name="antal">   
+                <label id="error-antal"></label>            
+            </li>
+            <li>Indsend registrering:
+                <button id="submit-form">Tilmeld</button>
+            </li>
+        </ul>
+    </form>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
